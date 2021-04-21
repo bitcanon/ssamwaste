@@ -21,7 +21,7 @@ from ssam import ssam
 
 ssam = ssam.WasteScheduler()
 
-buildings = ssam.search_building('Storgatan 5')
+buildings = ssam.search_building('Storgatan 1')
 
 # The search results are returned in a list
 for building in buildings:
@@ -33,7 +33,7 @@ You can access the address, city and building ID as properties on a building obj
 >>> building.address
 'Storgatan 1'
 >>> building.city
-'Växjö'
+'Storstaden'
 >>> building.id
 '71337'
 ```

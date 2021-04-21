@@ -5,7 +5,7 @@ with open('README.md', 'r', encoding='utf-8') as fh:
 
 setuptools.setup(
     name='ssamwaste',
-    version='1.0.0',
+    version='1.0.1',
     author='Mikael Schultz',
     author_email='mikael@bitcanon.com',
     description='A simple library for the SSAM Waste Schedule API written in Python 3.',
